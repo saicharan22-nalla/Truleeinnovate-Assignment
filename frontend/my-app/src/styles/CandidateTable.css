@@ -1,0 +1,41 @@
+.candidate-table-container {
+    width: 90%;
+    margin: 20px auto;
+    overflow-x: auto;
+  }
+  
+  .candidate-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .candidate-table th,
+  .candidate-table td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .candidate-table th {
+    background-color: #f0f0f0;
+  }
+  
+  @media (max-width: 768px) {
+    .candidate-table th,
+    .candidate-table td {
+      font-size: 12px;
+      padding: 8px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .candidate-table {
+      font-size: 11px;
+    }
+  
+    .candidate-table th,
+    .candidate-table td {
+      padding: 6px;
+    }
+  }
+  
